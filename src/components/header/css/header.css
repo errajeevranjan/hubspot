@@ -1,0 +1,158 @@
+/* DROPDOWN CSS */
+.dropdown {
+  display: inline;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: inline;
+}
+
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+.button0 {
+  border: 1px solid #ff7a59;
+  background-color: #f5f8fa;
+  color: #d84823;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/* Green */
+.primary {
+  border-color: #f5f8fa;
+  color: #516374;
+}
+
+.primary:hover {
+  background-color: #f5f8fa;
+  color: #516374;
+}
+
+/* divide */
+.divide {
+  display: inline;
+}
+
+/* contact CSS */
+.contact {
+  display: inline;
+}
+
+.contact > a {
+  color: #516374;
+  text-decoration: none;
+}
+
+/* custom login button CSS*/
+.button1 {
+  border: 1px solid #ff7a59;
+  background-color: white;
+  color: #d84823;
+  padding: 8px 30px 8px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* Green */
+.success {
+  border-color: #ff7a59;
+  color: #fd7957;
+}
+
+.success:hover {
+  background-color: #fde2db;
+  color: #ff7a59;
+}
+
+/* Get HubSpot Free Button*/
+.button2 {
+  background-color: #ff7a59;
+  padding: 8px 20px 8px;
+  font-size: 13px;
+  color: white;
+}
+
+.button2::hover {
+  color: white;
+}
+
+/* Search CSS */
+.search-box {
+  -webkit-transition: width 0.6s, border-radius 0.6s, background 0.6s,
+    -webkit-box-shadow 0.6s;
+  transition: width 0.6s, border-radius 0.6s, background 0.6s,
+    -webkit-box-shadow 0.6s;
+  transition: width 0.6s, border-radius 0.6s, background 0.6s, box-shadow 0.6s;
+  transition: width 0.6s, border-radius 0.6s, background 0.6s, box-shadow 0.6s,
+    -webkit-box-shadow 0.6s;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: #ebebeb;
+}
+
+.search-box + label .search-icon {
+  color: skyblue;
+}
+
+.search-box:hover {
+  color: skyblue;
+  background: #c8c8c8;
+  -webkit-box-shadow: 0 0 0 5px #3d4752;
+  box-shadow: 0 0 0 5px #3d4752;
+}
+
+.search-box:hover + label .search-icon {
+  color: skyblue;
+}
+
+.search-box:focus {
+  -webkit-transition: width 0.6s cubic-bezier(0, 1.22, 0.66, 1.39),
+    border-radius 0.6s, background 0.6s;
+  transition: width 0.6s cubic-bezier(0, 1.22, 0.66, 1.39), border-radius 0.6s,
+    background 0.6s;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding-left: 15px;
+  cursor: text;
+  width: 200px;
+  border-radius: auto;
+  background: #ebebeb;
+  color: black;
+}
+
+.search-box:focus + label .search-icon {
+  color: skyblue;
+}
+
+.search-box:not(:focus) {
+  text-indent: -5000px;
+}
+
+.search-icon {
+  position: relative;
+  left: -30px;
+  color: skyblue;
+  cursor: pointer;
+}
+
+/* header CSS */
+.header {
+  background-color: #f5f8fa;
+}
+
+/* hamburger button */
+.hamburger {
+  color: black;
+  font-size: 28px;
+}
+/*# sourceMappingURL=header.css.map */

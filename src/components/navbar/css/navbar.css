@@ -1,0 +1,34 @@
+.navigationmenu {
+  height: 88px;
+}
+
+.menu {
+  background-color: white;
+  color: #33475b;
+  font-weight: bold;
+  outline: none;
+  float: right;
+}
+
+.navbar-brand {
+  width: 106px;
+  height: 30px;
+}
+
+/* ******************************* Software CSS******************************** */
+
+.softwareicons {
+  background-color: #f5f8fa;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.software-dropdown {
+  line-height: 0em;
+}
+
+hr {
+  width: 80%;
+}
+/*# sourceMappingURL=navbar.css.map */
