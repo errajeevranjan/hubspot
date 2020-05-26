@@ -5,7 +5,7 @@ import Language from "./Language";
 class Header extends Component {
   render() {
     return (
-      <div className=' header border-bottom'>
+      <div className=' header border-bottom sticky-top'>
         <nav className='container navbar navbar-expand-sm ml-auto'>
           <button
             className='navbar-toggler'

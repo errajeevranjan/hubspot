@@ -8,7 +8,7 @@ import Hubspot from "./hubspot.svg";
 export default class Navbar extends Component {
   render() {
     return (
-      <nav className='container navbar navbar-expand-lg navigationmenu'>
+      <nav className='container navbar navbar-expand-lg  navigationmenu'>
         <a className='navbar-brand ml-4' href='https://www.hubspot.com/'>
           <img src={Hubspot} alt='' />
         </a>
