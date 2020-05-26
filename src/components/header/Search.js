@@ -5,17 +5,17 @@ export default class Search extends Component {
   render() {
     return (
       <div className='searchDiv ml-auto'>
-        <form class='form-inline'>
+        <form className='form-inline'>
           {/* Search */}
           <input
             id='search-box'
             type='text'
-            class='search-box'
+            className='search-box'
             placeholder=''
             name='q'
           />
-          <label for='search-box'>
-            <i class='fas fa-search search-icon'></i>
+          <label htmlFor='search-box'>
+            <i className='fas fa-search search-icon'></i>
           </label>
 
           {/* Login Button */}

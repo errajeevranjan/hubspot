@@ -40,7 +40,7 @@ export default class Software extends Component {
               Marketing Hub
             </h6>
             <br />
-            <small small className='small ml-4 pl-3'>
+            <small className='small ml-4 pl-3'>
               Marketing software to increase traffic and leads. Free and premium
               plans
             </small>
@@ -53,7 +53,7 @@ export default class Software extends Component {
               Sales Hub
             </h6>
             <br />
-            <small small className='small ml-4 pl-3'>
+            <small className='small ml-4 pl-3'>
               Sales software for closing more deals, faster. Free and premium
               plans.
             </small>
@@ -66,7 +66,7 @@ export default class Software extends Component {
               Service Hub
             </h6>
             <br />
-            <small small className='small ml-4 pl-3'>
+            <small className='small ml-4 pl-3'>
               Software for providing first-class customer service. Free and
               premium plans.
             </small>
@@ -76,10 +76,10 @@ export default class Software extends Component {
             href='https://www.hubspot.com/'>
             <h6>
               <img src={icon5} alt='' className='softwareicons mt-4' />
-              CMS Hub <span class='badge badge-success'>New</span>
+              CMS Hub <span className='badge badge-success'>New</span>
             </h6>
             <br />
-            <small small className='small ml-4 pl-3'>
+            <small className='small ml-4 pl-3'>
               Content management software to power website. Premium plans and
               free trial
             </small>
