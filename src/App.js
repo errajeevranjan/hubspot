@@ -5,6 +5,7 @@ import Navbar from "./components/navbar/Navbar";
 import Section from "./components/Section";
 import Footer from "./components/footer/Footer";
 import Home from "./components/home/Home";
+import Features from "./components/features/Features";
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <Navbar />
         <Section />
         <Home />
+        <Features />
         <Footer />
       </div>
     );

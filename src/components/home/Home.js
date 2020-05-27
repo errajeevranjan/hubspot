@@ -24,7 +24,7 @@ export default class Home extends Component {
         </div>
         <picture>
           <source
-            media='(min-width: 1025px)'
+            media='(min-width: 990px)'
             srcSet='//cdn2.hubspot.net/hubfs/53/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg'
             className='home-background'
           />

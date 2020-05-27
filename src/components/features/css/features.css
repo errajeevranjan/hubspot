@@ -1,0 +1,53 @@
+.features {
+  background-color: #f5f8fa;
+}
+
+.button4 {
+  width: 280px;
+  height: 50px;
+  background-color: #ff7a59;
+  padding: 0 20px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.button4::hover {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 2.5;
+}
+
+.fa-check-circle {
+  color: #ff7a59;
+  margin-right: 7px;
+}
+
+.start-card {
+  font-size: 1.125rem;
+  line-height: 1.61111em;
+  font-weight: 400;
+}
+
+.greybg {
+  background-color: #f5f8fa;
+}
+
+.popular-features {
+  font-weight: bold;
+  color: #33475b;
+}
+
+.card-title {
+  color: #33475b;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=features.css.map */
